@@ -21,12 +21,45 @@
     align-items: center;
     margin: 50px;
     padding: 30px;
+    border-radius: 10px;
 }
 
 .logo,.menu,.icon-btn, .details-info,.contact-info {
-    color: var(--first-color);
-    
+    color: var(--first-color);   
 }
+
+.logo-website{
+    width: 50%;
+}
+
+.menu {
+    display: flex; 
+}
+
+.menu-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex; /* Display menu items in a row */
+}
+
+.menu-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    gap: 20px;
+}
+
+.menu-list li {
+    margin-right: 10px; /* Add some spacing between menu items */
+}
+
+
 
 h1{
     font-weight: lighter;
@@ -56,6 +89,7 @@ h1{
 main{
     border-style: solid ;
     border-width: 1px;
+    border-radius: 1%;
     height:auto;
     margin: 30px
 }
@@ -97,14 +131,25 @@ main{
     max-width: 100%;
     height: auto;
     max-width: 100%;
+
 }
 
 .movie-info{
     display: flex;
+    margin-top: 10px;
 
 }
 
+.star-rate,.comment,.media-ctrl,.play-btn{
+    display: flex;
+    justify-content: space-between;
+    border-style: dashed;
+    
+}
+
 .ratings, .media-ctrl {
+    display: flex;
+    flex-direction: row;
     list-style: none;
     padding: 0;
     margin: 0;
