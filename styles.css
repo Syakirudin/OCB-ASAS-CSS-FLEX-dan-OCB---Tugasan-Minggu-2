@@ -32,7 +32,7 @@
     width: 50%;
 }
 
-.menu {
+.menu,.icon-btn {
     display: flex; 
 }
 
@@ -44,11 +44,11 @@
     justify-content: space-between;
 }
 
-.menu {
+.menu,.interaction-list,.bookmark,.search {
     display: flex; /* Display menu items in a row */
 }
 
-.menu-list {
+.menu-list,.interaction-list,.bookmark,.search {
     list-style-type: none; /* Remove default bullet points */
     padding: 0; /* Remove default padding */
     margin: 0; /* Remove default margin */
@@ -144,7 +144,7 @@ main{
 .star-rate,.comment,.media-ctrl,.play-btn{
     display: flex;
     justify-content: space-between;
-    border-style: dashed;
+    border-style: solid;
     
 }
 
