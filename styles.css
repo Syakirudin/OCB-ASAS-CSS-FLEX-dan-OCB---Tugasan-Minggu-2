@@ -161,7 +161,7 @@ main > .book-container img{
 
 .ratings > li {
     border-style: solid;
-    border-width: auto;
+    border-width: 2px;
     border-radius: 10px;
     width: 80px;
     padding-left: 10px;
@@ -170,4 +170,62 @@ main > .book-container img{
 
 .price p {
     font-size: 20px;
+}
+
+.container-footer{
+    background-color: black;
+    margin: 10px auto;
+    width: 1200px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.icon-media > li {
+    color: #f9f9f9;
+    text-decoration: none;
+    font-size: 24px; 
+}
+
+.icon-media{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-right: 10px;
+}
+
+.icon-media li i {
+    font-size: 24px; 
+    transition: transform 0.3s ease;
+}
+.icon-media li i:hover {
+    transform: scale(1.5);
+}
+
+.disclaimer{
+    background-color: black;
+    margin: 0 auto;
+    width: 1200px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.disclaimer > div > p{
+    color: #f9f9f9;
+}
+
+.disclaimer > div{
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
