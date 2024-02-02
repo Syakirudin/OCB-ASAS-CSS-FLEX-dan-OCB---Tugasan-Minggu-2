@@ -169,7 +169,7 @@ main > .book-container img{
 }
 
 .price p {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .container-footer{
@@ -231,7 +231,7 @@ main > .book-container img{
     padding: 20px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     
       
     .container-header,.menu,.row-1,.row-2,.row-3{
